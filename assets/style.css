@@ -1,0 +1,56 @@
+/* ref
+colors: https://usbrandcolors.com/twitter-colors/
+https://graphicdesign.stackexchange.com/questions/19217/what-is-the-default-dimension-for-a-users-twitters-background-image
+end */
+body {
+  background-color: #E1E8ED;
+  color: #14171A;
+  font-family: Helvetica, Arial, sans-serif;
+}
+.card {
+  border: 1px solid #E1E8ED;
+  background-color: #FFFFFF;
+}
+.left-side-col, .right-side-col {
+  width: 90%;
+  border: red 1px solid;
+}
+.left-side-card {
+  margin-left: 20px;
+}
+.right-side-card {
+  margin-right: 15%;
+}
+#navbar-container {
+  height: 32px;
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #E1E8ED;
+}
+#profile-container {
+  z-index: 2;
+  top: 90px;
+  left: 10px;
+  width: 100%;
+  position: absolute;
+}
+#profile-container .avatar {
+  float: left;
+  width: 85px;
+  height: 85px;
+  border-radius: 5px;
+  border: 4px solid #FFFFFF;
+}
+#profile-container .name {
+  top: 35px;
+  left: 12px;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+}
+#profile-container .userid {
+  top: 12px;
+  left: 10px;
+  font-size: 14px;
+  color: #657786;
+  position: relative;
+}
