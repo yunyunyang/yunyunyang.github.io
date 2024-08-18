@@ -1,6 +1,7 @@
 /* =============== */
 /*     GENERAL     */
 /* =============== */
+
 body {
   color: #ffffff;
   background-image: url(../images/stars.gif);
@@ -28,6 +29,7 @@ body {
 /* ============== */
 /*     HEADER     */
 /* ============== */
+
 header {
   position: relative;
   clear: both;
@@ -51,23 +53,18 @@ header {
 /* ============== */
 /*     FOOTER     */
 /* ============== */
+
 footer {
-  /* width: 100%; */
-  /* bottom: 0;
-  margin: auto; */
-  /* position: absolute; */
   margin: 20px auto auto auto;
   text-align: center;
 }
 
 .footer-btns, .footer-btns a, .copyright{
   color: #ffffff;
-  font-size: 1.2em;
+  font-size: 12px;
   line-height: 1.5em;
   padding: 0.5em;
   transition: color .2s;
-  font-size: 12px;
-  
 }
 
 footer a {
@@ -78,9 +75,8 @@ footer a {
 /* =============== */
 /*     CONTENT     */
 /* =============== */
+
 content {
-  /* color: #ffffff; */
-  /* border: 1px solid red; */
   font-size: 1.2em;
   font-family: "Times New Roman", Times, serif;
 }
@@ -107,6 +103,7 @@ content {
 /* ============ */
 /*     ICON     */
 /* ============ */
+
 .icon-news {
   position: relative;
   top: -13px;
@@ -149,6 +146,7 @@ content {
 /* ============= */
 /*     TABLE     */
 /* ============= */
+
 table {
   font-size: 18px;
   padding: 1px;
@@ -159,6 +157,10 @@ td {
   margin: 1;
   border: thin inset grey;
 }
+
+/* =================== */
+/*     MEDIA QUERY     */
+/* =================== */
 
 /* Custom, iPhone Retina */ 
 @media only screen and (min-width : 320px) {}
