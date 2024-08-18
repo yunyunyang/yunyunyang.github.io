@@ -3,56 +3,111 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <link href="./assets/style.css" rel="stylesheet">
+    <title>Welcome to my Homepage</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous"> -->
+    <link href="./assets/style_90s.css" rel="stylesheet">
   </head>
   <body>
-    <div class="container-fluid">
-      <div id="navbar-container" class="row mb-2">
-        <div class="col-1"></div>
-        <div class="col-10 text-center">
-          <span>Y</span>
-          <!-- Home | Notification | Message -->
-        </div>
-        <div class="col-1"></div>
+    <header>
+      <marquee direction="left">
+        <span class="header-text">welcome to my personal website...</span>
+      </marquee>
+      <div class="welcome-bar">
+        Thanks for stopping by
       </div>
-      <div class="row">
-        <div class="col-1"></div>
-        <div class="col-3 p-0">
-          <div class="card left-side-card">
-            <img src="./images/scott-webb-7XKNYYvdVFs-unsplash.jpg" class="card-img-top" height="120px">
-            <div id="profile-container">
-              <img src="./images/chloe.jpeg" class="avatar" />
-              <p class="name">chloeiii</p>
-              <p class="userid">@yunyunyang</p>
-            </div>
-            <div class="card-body mt-5">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
-          
-        </div>
-        <div class="col-4">
-          <div class="card">
-            <div class="card-body">
-              This is some text within a card body.
-            </div>
-          </div>
-        </div>
-        <div class="col-3 p-0">
-          <div class="card right-side-card">
-            <div class="card-body">
-              <h5 class="card-title">You may also like</h5>
-              <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-            </div>
-          </div>
-        </div>
-        <div class="col-1"></div>
-      </div>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    </header>
 
+    <content>
+      <div class="content-ctr">
+        <div class="photo">
+          <img src="" class="no-image" width="130px" height="150px" />
+        </div>
+        <div class="intro">
+          <!-- <img src="./images/neon_ball.gif" /> -->
+          <span>
+            My name is Yun Yun. I graduated in Data Analytics and Decision Science. 
+            Passionate about coding and creating innovative solutions, skilled in front-end and back-end development. 
+            Let's collaborate and innovate together if my background interests you!
+          </span>
+        </div>
+      </div>
+      
+      <div class="content-ctr">
+        <h3>Here is my tech stack</h3>
+        <table>
+          <!-- <thead>
+            <th>Backend</th>
+            <th>Frontend</th>
+          </thead> -->
+          <tbody>
+            <tr>
+              <td>Programming languages</td>
+              <td>Java, Python</td>
+            </tr>
+            <tr>
+              <td>Backend framework</td>
+              <td>Spring, Hibernate</td>
+            </tr>
+            <tr>
+              <td>Frontend</td>
+              <td>JavaScript, HTML, CSS, Vue.js, Bootstrap</td>
+            </tr>
+            <tr>
+              <td>Database</td>
+              <td>SQL, MySQL, PostgreSQL</td>
+            </tr>
+            <tr>
+              <td>Data analytics</td>
+              <td>Pandas, Numpy, Sklearn, Matplotlib</td>
+            </tr>
+            <tr>
+              <td>Tools</td>
+              <td>Git, Databricks, Azure Data Factory, Azure DevOps, Microsoft Power BI</td>
+            </tr>
+            <tr>
+              <td>Languages</td>
+              <td>English (Business fluent), Mandarin (native), German (beginner)</td>
+            </tr>
+          </tbody>
+        </table>
+
+        
+        <div class="green twenty-four">
+          <img src="./images/news.gif" class="icon-news" />
+          <a target="_blank" href="https://www.linkedin.com/in/yunyunyang/">Click here,</a>
+          to reach out to me on LinkedIn!
+        </div>
+      </div>
+      
+      
+
+      <!-- <img src="./images/hit_counter11.png" width="680px" height="95px" class="no_image" />  -->
+      
+      <!-- <div>
+        <a href-="#" class="btn">Who I am</a>
+      </div> -->
+
+      
+
+    </content>
+  
+    <footer>
+      <div class="hit-count-ctr">
+        <img src="./images/hit_counter.png" />
+        
+      </div>
+      
+      <div class="footer-btns">
+        <a target="_blank" href="https://github.com/yunyunyang">GitHub</a>
+        <a target="_blank" href="https://www.linkedin.com/in/yunyunyang/">LinkedIn</a>
+        <a target="_blank" href="https://letterboxd.com/yunyunyang/films/">Letterboxd</a>
+      </div>
+      
+      <!-- <div class="copyright">© 2024</div> -->
+    </footer>
+
+
+    <script src="./assets/index.js"></script>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-W111B2PRHD"></script>
     <script>
